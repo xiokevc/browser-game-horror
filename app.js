@@ -1,64 +1,30 @@
 /*-------------------------------- Constants --------------------------------*/
-console.log('hot cheetos');
-const storyNodes = [
-    {
-        id: 'start'
 
-    }
-
-];
-
-const msg = ['Game Over', 'You have Escaped!'];
-
-const menu = ['Exit Game', 'Resume', 'Restart']
-
+// const button = document.getElementById('button');
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let currentNodeId;
-let isGamerOver = false;
-let flashlightOn = false;
 
 
 /*------------------------ Cached Element References ------------------------*/
 
-const messageEl = document.getElementById('');
-const startButton = document.getElementById('start-game');
 
 /*-------------------------------- Functions --------------------------------*/
 
-function init() {
 
-};
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-// Cached element
-const startGame = document.getElementById('start-link');
+// exploreBtn.addEventListener('click', () => {
+//   option2Page.classList.add('hidden');
+//   exploreSection.classList.remove('hidden');
+// });
 
-// Event listener for clicking "start game"
-startGame.addEventListener('click', () => {
-  alert('Game Starting...'); // Replace with init() or load game page later
-  // Example: window.location.href = 'game.html';
-});
+// runBtn.addEventListener('click', () => {
+//   alert("You ran"); // Replace
+// });
 
 /*--------------------------- Start the game! ---------------------------*/
 
 
-// // Cache audio element
-// const audioElement = document.getElementById('backgroundAudio');
 
-// // Cache Start button
-// const startButton = document.getElementById('startButton');
-
-// startButton.addEventListener('click', () => {
-//   // Play background music when game starts
-//   audioElement.play().catch(err => {
-//     console.log("Autoplay blocked, user must interact:", err);
-//   });
-
-//   // Continue your init() or game start logic here
-//   init(); // if you have an init function
-// });
-
-// audioElement.volume = 0.3; // 30% volume
