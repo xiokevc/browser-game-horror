@@ -62,10 +62,17 @@
   transition: color 0.3s ease;
 }
 
-.link:hover {
-  color: darkred;
-}
-
-.hidden {
-  display: none;
+#main-menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: 'Creepster', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
