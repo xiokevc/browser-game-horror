@@ -1,23 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
-console.log('hot cheetos');
-const storyNodes = [
-    {
-        id: 'start'
-
-    }
-
-];
-
-const msg = ['Game Over', 'You have Escaped!'];
-
-const menu = ['Exit Game', 'Resume', 'Restart']
 
 
 /*---------------------------- Variables (state) ----------------------------*/
-
-let currentNodeId;
-let isGamerOver = false;
-let flashlightOn = false;
 
 
 /*------------------------ Cached Element References ------------------------*/
@@ -34,7 +18,7 @@ function init() {
 /*----------------------------- Event Listeners -----------------------------*/
 
 // Cached element
-const startGame = document.getElementById('start-link');
+const startGame = document.getElementById('start-game');
 
 // Event listener for clicking "start game"
 startGame.addEventListener('click', () => {
