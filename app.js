@@ -1,6 +1,8 @@
+console.log('Hello, world.')
+
 /*-------------------------------- Constants --------------------------------*/
-const = document.getElementById('');
-let = false;
+// const = document.getElementById('');
+// let = false;
 
 /*---------------------------- Variables (state) ----------------------------*/
 
