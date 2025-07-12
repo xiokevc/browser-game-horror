@@ -1,8 +1,12 @@
-console.log('Hello, world.')
+
 
 /*-------------------------------- Constants --------------------------------*/
 // const = document.getElementById('');
 // let = false;
+
+const launchBtn = document.getElementById('launchBtn');
+const gameOverGif = document.getElementById('gameOverGif');
+const overlay = document.getElementById('overlay');
 
 /*---------------------------- Variables (state) ----------------------------*/
 
@@ -13,6 +17,21 @@ console.log('Hello, world.')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
+
+launchBtn.addEventListener('click', () => {
+  gameOverGif.style.display = 'block';
+});
+
+launchBtn.addEventListener('click', () => {
+  overlay.style.display = 'flex';
+});
+
+launchBtn.addEventListener('click', () => {
+  overlay.style.display = 'flex';
+  setTimeout(() => {
+    overlay.style.display = 'none';
+  }, 5000); // hides after 3 seconds
+});
 
 /*--------------------------- Start the game! ---------------------------*/
 
