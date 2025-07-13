@@ -9,6 +9,7 @@
   }
 }
 
+/* Background GIF styling */
 #gif {
   position: fixed;
   top: 0;
@@ -19,6 +20,7 @@
   z-index: -1; 
 }
 
+/* Title container */
 #title {
   display: flex;
   flex-direction: column;
@@ -31,23 +33,26 @@
   transition: color 0.3s ease;
 }
 
+/* Title main heading */
 #title h1 {
   font-family: 'Creepster';
   font-size: 2.5rem;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
   animation: flashGlow 2s infinite;
   transition: color 0.3s ease;
 }
 
+/* Title subtext */
 #title p {
   font-family: 'Creepster';
   font-size: 1rem;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
-.link {
+/* General interactive links/buttons */
+.link, #launchBtn {
   font-family: 'Creepster';
   font-weight: bold;
   font-size: 1.5rem;
@@ -62,6 +67,7 @@
   transition: color 0.3s ease;
 }
 
+/* Main menu button */
 #main-menu {
   position: fixed;
   bottom: 10px;
@@ -75,9 +81,11 @@
   border: none;
   cursor: pointer;
   transition: color 0.3s ease;
+  z-index: 10000;
 }
 
-#overlay {
+/* Fullscreen overlay (general use) */
+#overlay, #gameOverGif {
   position: fixed;
   top: 0;
   left: 0;
@@ -87,27 +95,14 @@
   z-index: 9999; 
 }
 
-#gameOverGif {
+/* Flashlight overlay (added for your recent flashlight implementation) */
+#flashlight {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  object-fit: cover; 
-  z-index: 9999; 
-}
-
-#launchBtn {
-  font-family: 'Creepster';
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px;
-  border: none; 
-  background: none; 
-  animation: flashGlow 3s infinite;
-  transition: color 0.3s ease;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  display: none; /* hidden until toggled on */
+  z-index: 9998; /* behind overlays like gameOverGif but above background */
 }
