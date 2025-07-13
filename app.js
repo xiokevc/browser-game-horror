@@ -30,7 +30,7 @@ launchBtn.addEventListener('click', () => {
   overlay.style.display = 'flex';
   setTimeout(() => {
     overlay.style.display = 'none';
-  }, 5000); // hides after 3 seconds
+  }, 5000); // hides after 5 seconds
 });
 
 /*--------------------------- Start the game! ---------------------------*/
