@@ -1,14 +1,12 @@
 
 
 /*-------------------------------- Constants --------------------------------*/
-// const = document.getElementById('');
-// let = false;
 
 const launchBtn = document.getElementById('launchBtn');
 const gameOverGif = document.getElementById('gameOverGif');
 const overlay = document.getElementById('overlay');
-
 const flashlight = document.getElementById('flashlight');
+
 let flashlightOn = false;
 let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
@@ -33,14 +31,8 @@ function updateFlashlight() {
 
 launchBtn.addEventListener('click', () => {
   gameOverGif.style.display = 'block';
-});
-
-launchBtn.addEventListener('click', () => {
   overlay.style.display = 'flex';
-});
-
-launchBtn.addEventListener('click', () => {
-  overlay.style.display = 'flex';
+  
   setTimeout(() => {
     overlay.style.display = 'none';
   }, 5000); // hides after 5 seconds
