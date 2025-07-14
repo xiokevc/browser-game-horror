@@ -34,7 +34,7 @@
 #title h1 {
   font-family: 'Creepster';
   font-size: 2.5rem;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
   animation: flashGlow 2s infinite;
   transition: color 0.3s ease;
@@ -43,11 +43,11 @@
 #title p {
   font-family: 'Creepster';
   font-size: 1rem;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
-.link {
+.link, #launchBtn {
   font-family: 'Creepster';
   font-weight: bold;
   font-size: 1.5rem;
@@ -75,9 +75,10 @@
   border: none;
   cursor: pointer;
   transition: color 0.3s ease;
+  z-index: 10000;
 }
 
-#overlay {
+#overlay, #gameOverGif {
   position: fixed;
   top: 0;
   left: 0;
@@ -87,27 +88,3 @@
   z-index: 9999; 
 }
 
-#gameOverGif {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  object-fit: cover; 
-  z-index: 9999; 
-}
-
-#launchBtn {
-  font-family: 'Creepster';
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px;
-  border: none; 
-  background: none; 
-  animation: flashGlow 3s infinite;
-  transition: color 0.3s ease;
-}

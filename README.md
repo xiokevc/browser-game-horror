@@ -1,16 +1,28 @@
-README Requirements
-✅ More than two items marked incomplete in this section will require you to use your one redo to re-submit them. If two or fewer items are marked incomplete, the project is considered passing. Your README must contain the items or sections below.
+# 👻 Nightmare: Into the Deep
 
-Screenshot/Logo: A screenshot of your app or a logo.
+![landingPage](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGRwdmdrdXRpYXpqeTlzZWFieDg0NXUxNGFuYzU1M3dqMzVoYjhjdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r02ojcfntAemmwlKLM/giphy.gif)
 
-Your game’s name: Include a description of your game and what it does. Background info about the game and why you chose it is a nice touch.
+```javascript
+Nightmare: Into the Deep, is an click adventure game that takes you through puzzles to escape! Your choices that you choose determines your outcome, so I would advise you to think twice before choosing an answer. 
 
-# Nightmare: Into the Deep
+I chose this game because the genre most intrested me. For what I wanted to build, a choose your own adventure game gave me the capability to freely explore the connection between the three languages (javascript, html, and css). I also had a lot of fun incorporating media with code. 
+```
 
-Getting started: Include a link to your deployed game and any instructions you deem important. This should also contain a link to your planning materials.
+CLICK THIS LINK TO PLAY ---> [**Deployed project link**](https://xiokevc.github.io/browser-game-horror/)
 
-Attributions: This section should include links to any external resources (such as libraries or assets) you used to develop your application that require attribution. You can exclude this section if it does not apply to your application.
+![landingPage](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3prOGdlZHFpejQwYm50aHVvNjBnbWticWZtdDVmbHQ2d2NoaDB6biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mFzjk8qiQFeogAQiNX/giphy.gif)
 
-Technologies used: List of the technologies used, for example: JavaScript, HTML, CSS, etc.
+## **Attributions**: 
 
-Next steps: Planned future enhancements (stretch goals).
+[**Project Planning Link**](https://github.com/xiokevc/browser-game-horror)
+
+[**Project Assets**](https://giphy.com/channel/xiokevc)
+
+**Technologies Used**: JavaScript, HTML, CSS, Canva.
+
+## **Next Steps**: 
+
+1. Add flashlight system
+2. Update story
+3. Update visuals
+4. Smoother transitions with js

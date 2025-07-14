@@ -1,5 +1,3 @@
-
-
 /*-------------------------------- Constants --------------------------------*/
 
 const launchBtn = document.getElementById('launchBtn');
@@ -14,16 +12,19 @@ const overlay = document.getElementById('overlay');
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-launchBtn.addEventListener('click', () => {
-  gameOverGif.style.display = 'block';
-  overlay.style.display = 'flex';
-  
-  setTimeout(() => {
-    overlay.style.display = 'none';
-  }, 7000); // hides after 5 seconds
-});
+//Toggles winning and losing gifs when clicked/ overalys current html slide
+if (launchBtn) {
+  launchBtn.addEventListener('click', () => {
+    gameOverGif.style.display = 'block';
+    overlay.style.display = 'flex';
+    
+    setTimeout(() => {
+      overlay.style.display = 'none';
+    }, 7000); // hides after 7 seconds
+  });
+}
 
 /*--------------------------- Start the game! ---------------------------*/
-
+// Initialize game state or UI here if needed
 
 
